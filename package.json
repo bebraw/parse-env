@@ -5,6 +5,7 @@
     "version": "0.1.0",
 
     "dependencies": {
+        "annotate": "0.6.7",
         "annois": "0.2.0"
     },
 
