@@ -1,0 +1,42 @@
+{
+    "name": "parse-env",
+    "description": "Parses configuration from env",
+    "author": "Juho Vepsalainen <bebraw@gmail.com>",
+    "version": "0.1.0",
+
+    "dependencies": {
+        "annois": "0.2.0"
+    },
+
+    "devDependencies": {
+        "annofuzz": "0.1.1"
+    },
+
+    "scripts": {
+        "test": "node ./lib/tests.js"
+    },
+
+    "main": "./lib/parse-env.js",
+
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:bebraw/parse-env.git"
+    },
+
+    "directories": {
+        "lib": "./lib"
+    },
+
+    "homepage": "https://github.com/bebraw/parse-env",
+
+    "bugs": {
+        "url": "https://github.com/bebraw/parse-env/issues"
+    },
+
+    "keywords": ["configuration", "utilities", "env", "environment"],
+
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/bebraw/parse-env/blob/master/LICENSE"
+    }]
+}
