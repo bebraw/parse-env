@@ -36,7 +36,7 @@ var parseEnv = require('parse-env');
 var tpl = require('./config.template');
 
 // the configuration file is optional and doesn't have to exist
-var conf;
+var conf = {};
 
 try {
     conf = require('./config');
