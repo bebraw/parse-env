@@ -49,11 +49,14 @@ module.exports = parseEnv(process.env, tpl, conf);
 
 The parser is convention based. It performs the following conversions:
 
+* parseJSON -> PARSE_JSON
 * port -> PORT
 * aws.accessKeyId -> AWS_ACCESS_KEY_ID
 * foo. ... .bar.baz -> FOO_ ... _BAR_BAZ (recursive definition)
 
 In case no match is found either in the environment or configuration, a warning is given. The value will be the default defined at the template in this case.
+
+It is possible to disable the warnings by setting `MUTE_PARSE_ENV` environment variable as true.
 
 ## License
 
