@@ -8,10 +8,6 @@
     "annois": "0.3.0",
     "change-case": "~1.0.4"
   },
-  "devDependencies": {
-    "annofuzz": "0.3.1",
-    "annogenerate": "0.6.2"
-  },
   "scripts": {
     "test": "node ./lib/tests.js"
   },
