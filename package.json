@@ -2,7 +2,7 @@
   "name": "parse-env",
   "description": "Parses configuration from env",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "dependencies": {
     "annois": "^0.3.2",
     "annotate": "^0.9.1",
