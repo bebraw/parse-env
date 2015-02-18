@@ -4,9 +4,9 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.4.0",
   "dependencies": {
-    "annotate": "0.7.0",
-    "annois": "0.3.0",
-    "change-case": "~1.0.4"
+    "annotate": "^0.9.1",
+    "annois": "^0.3.2",
+    "change-case": "^2.2.0"
   },
   "scripts": {
     "test": "node ./lib/tests.js"
