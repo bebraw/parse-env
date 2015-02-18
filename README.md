@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/bebraw/parse-env.png)](http://travis-ci.org/bebraw/parse-env)
 # parse-env - Parses configuration from env
 
 `parse-env` makes it easy to make your project support environment variable based configuration. It infers the environment variable names based on the given template. That template may be the configuration itself. Should an environment variable matching to the convention be found, it will use that rather than the one in the original configuration.
