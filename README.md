@@ -5,7 +5,7 @@
 
 To make the way it works clearer, consider the example below. It consists of three files. The first one is a template which you would store at your repository. The second one is a private configuration not stored for security reasons. The third one deals with parsing. The files are inside a `config` package. The last file works as an entry point to it.
 
-config/config.template.js:
+**config/config.template.js**
 
 ```js
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
 };
 ```
 
-config/config.js:
+**config/config.js**
 
 ```js
 module.exports = {
@@ -29,7 +29,7 @@ module.exports = {
 };
 ```
 
-config/index.js:
+**config/index.js**
 
 ```js
 var parseEnv = require('parse-env');
